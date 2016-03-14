@@ -8,7 +8,7 @@
 #ifdef _DBG_CT_
 	#define DBG_TIMER(format,...) printf("File: "__FILE__", Line: %05d: "format"/n", __LINE__, ##__VA_ARGS__)  
 #else /*_DBG_CT_*/
-	#defdine DBG_TIMER(format, ...)   do{}while(0)
+	#define DBG_TIMER(format, ...)   do{}while(0)
 #endif /*_DBG_CT_*/
 
 
